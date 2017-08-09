@@ -1,0 +1,84 @@
+/*Main Container*/
+
+.main{
+	background: #b38867;
+	width: 100%;
+}
+
+h1{
+	font-family: 'Megrim', cursive;
+	font-size: 200px;
+	color: #ddbc95;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+h2{
+	font-family: 'Megrim', cursive;
+	color: #ddbc95;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.carousel .carousel-item {
+	width: 450px;
+	height: 150px
+}
+
+.carousel{
+	/*margin-bottom:;*/
+	padding-top: 0;
+	position: relative;
+	bottom: 75px;
+	height: 400px;
+}
+
+
+
+#nameRow{
+	margin-bottom: 0;
+}
+
+#arrowBtn{
+	font-size: 50px;
+	color: #ddbc95;
+	position: relative;
+	bottom: 110px;
+	background-color: #b38867;
+}
+
+#arrowRow{
+	margin:0
+}
+/*About Container*/
+
+
+#aboutContainer{
+	background-color: #504136;
+	width: 100%;
+	margin: 0;
+}
+
+#aboutHeader{
+	color: #6B6054;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+p{
+	color: #6B6054;
+	/*padding: 25px 200px 0 200px;*/
+}
+
+#p1{
+	padding: 15px 300px 0 300px;
+}
+
+#p2{
+	 padding: 25px 300px 50px 300px;
+ }
+
+
+/*font-family: 'Poiret One', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Megrim', cursive;*/*/

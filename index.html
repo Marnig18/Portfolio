@@ -2,8 +2,84 @@
 <html>
 <head>
 	<title>Marni Gross Portfolio</title>
+	<!-- Reset CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Materialize  CSS  CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Megrim|Poiret+One|Rock+Salt" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+	<!-- JQUERY -->
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
 </head>
 <body>
+	<div class="container main">
+		<div class="row" id="nameRow" >
+			<div class="col s12">
+				<h1 class="center-align">Marni Gross</h1>
+				<h2 class="center-align">Portfolio</h2>
+			</div>
+		</div>
+		<div class="row">
+		  <div class="carousel">
+		    <a class="carousel-item" href="https://marnig18.github.io/ParkIT/"><img src="assets/images/ParkIt.png" alt="ParkIt"></a>
+		    <a class="carousel-item" href="https://morning-anchorage-70907.herokuapp.com/"><img src="assets/images/mongoScrapper.png" alt="Mongo Scrapper"></a>
+		    <a class="carousel-item" href="https://marnig18.github.io/GifTastic/"><img src="assets/images/GifTastic.png" alt="GifTastic"></a>
+		    <a class="carousel-item" href="https://eatdaburger2.herokuapp.com/"><img src="assets/images/burger.png" alt="Eat-Da-Burger"></a>
+		    <a class="carousel-item" href="https://marnig18.github.io/Crystal-Collector/"><img src="assets/images/crystalCollector.png" alt="crystal Collector"></a>
+		  </div>
+		</div>
+		<div class="row" id="arrowRow">
+			<div class="col s12 center-align">
+				 <a class="waves-effect waves-light btn-flat material-icons" id="arrowBtn">keyboard_arrow_down</a>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="aboutContainer">
+		<div class="row">
+			<div class="col s12">
+				<h2 class="center-align" id="aboutHeader">About Me</h2>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<p class="center-align" id="p1">Hi! I'm Marni. I am 23 years old with a degree in Biology from Brandeis University. I first started on this career path with the intention of becoming a Veterinarian. However, paths change. I started doing a some front-end web developement online tutorials and found that I really enjoyed it. Next thing I new I was enrolled in the Rutgers Coding Bootcamp. </p>
+					<br>
+					<p class="center-align" id="p2">
+					This website is the first of many assingments I will complete along my long journey to becoming a professional developer. It will showcase all of the projects that I will develop thoughout my time in the course.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
+		<script type="text/javascript">
+		   $(document).ready(function(){
+	      $('.carousel').carousel();
+				  // Next slide
+				$('.carousel').carousel('next');
+				$('.carousel').carousel('next', 3); // Move next n times.
+
+				// Previous slide
+				$('.carousel').carousel('prev');
+				$('.carousel').carousel('prev', 4); // Move prev n times.
+			  });
+
+				// $("#arrowBtn").on("click", function {
+				// 	$("#aboutContainer").addClass(animated fadeInUp);
+				// })
+
+		</script>
 </body>
+
 </html>
