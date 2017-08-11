@@ -137,7 +137,7 @@ p{
 	padding-top: 12px;
  }
 
- @media screen and (min-width: 980px) {
+ @media screen and (max-width: 980px) {
 	h1{
 		font-size: 11em;
 	}
@@ -160,7 +160,7 @@ p{
 	}
  }
 
-  @media screen and (min-width: 400px){
+  @media screen and (max-width: 400px){
 		#profpic{
 			padding: 0;
 			margin:0;
