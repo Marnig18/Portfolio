@@ -160,6 +160,53 @@ p{
 	}
  }
 
+  @media screen and (max-width: 400px){
+		#profpic{
+			padding: 0;
+			margin:0;
+			width: 50%;
+			margin-top: 10%
+
+		}
+
+		#aboutP{
+			font-size: 2em;
+		}
+
+		#p1{
+			padding-top: 5px;
+			text-align: center;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		#p2{
+			padding-top: 5px;
+			text-align: center;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		#about{
+			left: 0;
+		}
+
+		#linkContainer{
+			margin: 0;
+	    left: 20px;
+	    margin-bottom: 10%;
+	    width: 90%;
+		}
+
+		#contactP{
+			font-size: 1em;
+		}
+
+		h1{
+			font-size: 10em;
+		}
+
+	}
+
 /*font-family: 'Poiret One', cursive;
 font-family: 'Rock Salt', cursive;
 font-family: 'Megrim', cursive;*/*/
