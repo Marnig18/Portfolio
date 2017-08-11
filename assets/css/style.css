@@ -3,6 +3,7 @@
 .main{
 	background: #b38867;
 	width: 100%;
+	padding-bottom: 0
 }
 
 h1{
@@ -43,8 +44,9 @@ h2{
 	font-size: 50px;
 	color: #ddbc95;
 	position: relative;
-	bottom: 110px;
+	bottom: 50px;
 	background-color: #b38867;
+
 }
 
 #arrowRow{
@@ -65,18 +67,76 @@ h2{
 	padding-bottom: 25px;
 	font-weight: bold;
 }
+
+#about{
+	position: relative;
+	left: -10px
+}
 p{
 	color: #6B6054;
 	/*padding: 25px 200px 0 200px;*/
 }
 
 #p1{
-	padding: 15px 300px 0 300px;
+	padding: 15px 75px 0 75px;
+	font-size: 1.1em;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
 }
 
 #p2{
-	 padding: 25px 300px 50px 300px;
+	 padding: 25px 75px 50px 75px;
+	 font-size: 1.1em;
+	 font-family: 'Poiret One', cursive;
+	 	font-weight: bold;
  }
+
+ #icon{
+	 width: 100%;
+	 margin: 0;
+	 padding: 0;
+ }
+
+ #icon:hover{
+	 width: 110%
+ }
+
+ #linkContainer{
+	 margin-top: 100px;
+   position: relative;
+   right: 20px;
+	 background-color: #ddbc95;
+	 padding: 1% 3%;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 border-radius: 5px;
+
+ }
+
+
+ h5{
+	 font-family: 'Poiret One', cursive;
+	 font-weight: bold;
+	 color: #504136;
+ }
+
+ #profpic{
+	border-radius: 100%;
+	margin-top: 80%;
+	margin-left: 50%;
+	width: 70%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+
+ #emailbtn{
+	background-color: #A1B0AB;
+ }
+
+ #contactP{
+	color: #504136;
+	padding-top: 12px;
+ }
+
 
 
 /*font-family: 'Poiret One', cursive;
