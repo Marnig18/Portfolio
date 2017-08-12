@@ -137,7 +137,7 @@ p{
 	padding-top: 12px;
  }
 
- /*@media screen and (max-width: 980px) {
+ @media screen and (max-width: 980px) {
 	h1{
 		font-size: 11em;
 	}
@@ -205,7 +205,7 @@ p{
 			font-size: 10em;
 		}
 
-	}*/
+	}
 
 /*font-family: 'Poiret One', cursive;
 font-family: 'Rock Salt', cursive;
