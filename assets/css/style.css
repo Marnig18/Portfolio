@@ -158,9 +158,9 @@ p{
 	#contactP{
 		font-size: .8em;
 	}
-}*/
+}
 
-  /*@media screen and (max-width: 400px){
+  @media screen and (max-width: 400px){
 		#profpic{
 			padding: 0;
 			margin:0;
@@ -209,4 +209,4 @@ p{
 
 /*font-family: 'Poiret One', cursive;
 font-family: 'Rock Salt', cursive;
-font-family: 'Megrim', cursive;*/*/
+font-family: 'Megrim', cursive;*/
